@@ -1,0 +1,80 @@
+h1:first-child:before { content: 'K, sooo...'; }
+
+h1:nth-child(2):before { content: 'So like '; }
+h1:nth-child(2):after { content: '. totes serious.'; }
+
+h1:nth-child(3):before { content: 'but listin to this: '; }
+h1:nth-child(3):after { content: ' thats what im sayin!'; }
+
+h1:nth-child(4):before { content: 'um...you uh...'; }
+h1:nth-child(4):after { content: ' ...yeah.'; }
+
+h1:last-child:before { content: 'k, like so '; }
+h1:last-child:after { content: ' and yeah.'; }
+
+h1:only-child:before { content: 'but you know wut? '; }
+h1:only-child:after { content: ' and thats wut i herd.'; }
+
+h2:before { content: 'um...' }
+h3:before { content: 'and um ' }
+h3:after { content: ' and stuff' }
+
+p:first-child:before { content: 'like, '; }
+p:first-child:after { content: ' So yeah.'; }
+
+p:nth-child(2):before { content: 'but like...swear to god '; }
+p:nth-child(2):after { content: ' not even kdding!!1'; }
+
+p:nth-child(3):before { content: 'and this is like the best part '; }
+p:nth-child(3):after { content: ' thats what im talkin bout'; }
+
+p:nth-child(4):before { content: 'you dont even no! '; }
+p:nth-child(4):after { content: ' its so funy haha wtfrofl'; }
+
+p:last-child:before { content: 'but uhh '; }
+p:last-child:after { content: ' so there ya go.'; }
+
+p:only-child:before { content: 'and can i jus say somethin? '; }
+p:only-child:after { content: ' So yeah.'; }
+
+* { text-transform: lowercase; }
+
+strong:before { content: 'OMG haha wtf..' }
+strong:after { content: ' ROFL' }
+em:before { content: 'serously u guys, ' }
+em:after { content: ' like ' }
+
+a:first-child:before { content: 'an check this out!!! '; }
+a:first-child:after { content: ' !!! zomg'; }
+
+a:nth-child(2):before { content: 'CHECK IT OUT --> '; }
+a:nth-child(2):after { content: ' (WOW)'; }
+
+a:nth-child(3):before { content: '**NEW**  '; }
+a:nth-child(3):after { content: ' <-- NOT KIDDING'; }
+
+a:nth-child(4):before { content: '[*^-._UPDATED_.-^* '; }
+a:nth-child(4):after { content: ' <= HOT LINK'; }
+
+a:last-child:before { content: '(BEST:) '; }
+a:last-child:after { content: ' (under construction)'; }
+
+a:only-child:after { content: ' <- unbelevable'; }
+
+ul li:first-child:before { content: 'ok so '; }
+ul li:first-child:after { content: '. N stuff.'; }
+
+ul li:nth-child(2):before { content: 'but also '; }
+ul li:nth-child(2):after { content: ' to'; }
+
+ul li:nth-child(3):before { content: 'idk but '; }
+ul li:nth-child(3):after { content: ' (i think ha ha)'; }
+
+ul li:nth-child(4):before { content: 'seriusly '; }
+ul li:nth-child(4):after { content: ' so you know'; }
+
+ul li:last-child:before { content: 'neway....'; }
+ul li:last-child:after { content: '. ha ha'; }
+
+ul li:only-child:before { content: 'like... '; }
+ul li:only-child:after { content: ' (WTFFFF!??!1).'; }
